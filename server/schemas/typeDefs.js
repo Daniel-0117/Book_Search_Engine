@@ -21,7 +21,7 @@ const typeDefs = gql`
         user: User
     }
     type Query {
-        me: User
+        me: User    
     }
     input BookInput {
         bookId: String
